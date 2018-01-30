@@ -1,0 +1,504 @@
+
+/*Styling below for my logo*/
+
+#logo{
+  position: fixed;
+  color: rgb(236, 61, 76);
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+/*Styling below for my nav bar*/
+
+#navbar{
+  height: 100px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#navbar ul{
+  list-style-type: none;
+  padding-left: 220px;
+  padding-top: 30px;
+}
+
+#navbar li{
+  display: inline;
+  padding-left: 55px;
+}
+
+#navbar li a{
+  text-decoration: none;
+  color: rgb(41, 50, 65); /*Grey text colour*/
+}
+
+/*Styling below for the first background image section*/
+
+#first_background{
+  background-color: rgb(38,55,75);
+  height: 600px;
+}
+
+/*Styling below for the name and title*/
+
+#name_title{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 250px;
+  background-image: url("");
+  color: white;
+  letter-spacing: 1px;
+}
+
+#name_title h2{
+  font-size: 40px;
+}
+
+#name_title p{
+  font-size: 20px;
+}
+
+/*Styling below for the pink box with text*/
+
+#pink_box{
+  height: 50px;
+  width: 45px;
+  background-color: rgb(236, 61, 76);
+  color: white;
+  margin-left: 250px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#pink_box p{
+  padding-top: 10px;
+}
+
+#pink_arrow{
+  margin-left: 14px;
+  margin-top: -12px;
+}
+
+/*The styling below is for the intro section just under the navbar*/
+
+#first_section{
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: white;
+  height: 480px;
+  width: 60%;
+  position: absolute;
+  box-shadow: lightgrey 2px 2px 2px;
+}
+
+#first_section img{
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-top: 40px;
+}
+
+#first_section p{
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+#first_section h3{
+  text-align: center;
+  color: rgb(41, 50, 65);
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#first_section span{
+  color: rgb(236, 61, 76);
+}
+
+/*Styling below for the social media icons section below intro*/
+
+#social_media{
+  height: 320px;
+  background-color: rgb(234,235,239);
+}
+
+#social_media table{
+  margin-left: 25%;
+  padding-top: 220px;
+}
+
+#social_media td{
+  padding-left: 70px;
+}
+
+/*Styling below for the services section*/
+
+#services{
+  height: 590px;
+  background-image: url();
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+#services h2{
+  font-size: 35px;
+  color: rgb(41, 50, 65);
+}
+
+#services p{
+  font-size: 15px;
+}
+
+#services table{
+  margin-top: 60px;
+}
+
+#service_table_heading{
+  color: rgb(41, 50, 65);
+}
+
+#services table td{
+  height: 40px;
+  padding: 5px 5px 5px 5px;
+}
+
+#services button{
+  width: 180px;
+  height: 60px;
+  background-color: rgb(242, 59, 77);
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 2px 2px 2px;
+}
+
+/*Styling below for the progress bar section*/
+
+#progress_bars_sec{
+  height: 450px;
+  background-color: rgb(234, 235, 239);
+  color: grey;
+  font-size: 23px;
+}
+
+#progress_bars_sec table{
+  padding-top: 100px;
+  margin-left: 25%;
+}
+
+#progress_bars_sec table td{
+  height: 35px;
+  width: 400px;
+}
+
+#progress_bars_sec progress{
+  width: 370px;
+  height: 10px;
+}
+
+/*Progress bar styling*/
+
+progress {
+  border: none;
+  background: black;
+}
+
+progress::-webkit-progress-value {
+  background: rgb(238,60,76);
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(38,54,79);
+}
+
+
+/*Styling below for the work and education section*/
+
+#work_ed_main{
+  height: 950px;
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#work_ed_main h2{
+  font-size: 35px;
+  color: rgb(41, 50, 65);
+  padding-top: 30px;
+}
+
+#work_ed_main p{
+  color: grey;
+}
+
+#work_ed_main button{
+  margin-top: 40px;
+  width: 180px;
+  height: 70px;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+#work_ed_main button:hover{
+  background-color: lightgrey;
+}
+
+#work_button_left{
+  color:rgb(251,96,112);
+}
+
+/*Styling below for the work infomation*/
+
+#work_info{
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#work_info section{
+  margin-top: 20px;
+  text-align: left;
+  border: 1px lightgrey solid;
+  padding-left: 50px;
+}
+
+.company_letter{
+  font-size: 70px;
+  color: grey;
+  text-align: center;
+}
+
+.company_title{
+  text-align: center;
+  font-size: 18px;
+}
+
+#work_info td{
+  padding-right: 100px;
+}
+
+#work_info tr{
+  height: 200px;
+}
+
+#work_ed_main p{
+  color: grey;
+}
+
+.work_date{
+  color: rgb(251,96,112);
+  font-size: 18px;
+}
+
+/*Styling below for the counter bar*/
+
+#counter{
+  height: 280px;
+  background-color: rgb(234, 235, 239);
+  padding-top: 90px;
+  text-align: center;
+}
+
+.counter_numbers{
+  font-size: 30px;
+}
+
+#counter td{
+  padding-left: 150px;
+}
+
+.counter_title{
+  font-size: 15px;
+  color: grey;
+}
+
+/*Styling below for the projects section*/
+
+#projects_main{
+  height: 1200px;
+  background-color: white;
+  text-align: center;
+}
+
+#projects_main h2{
+  font-size: 35px;
+  color: rgb(41, 50, 65);
+  padding-top: 30px;
+}
+
+#project_text{
+  color: grey;
+}
+
+#projects_main table{
+  margin-left: 21%;
+  margin-top: 100px;
+  font-size: 20px;
+  color: rgb(41, 50, 65);
+}
+
+#projects_main td{
+  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.project_table_text{
+  text-align: left;
+  padding-left: 30px;
+}
+
+#projects_main ul{
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+#projects_main li{
+  display: inline;
+  padding-right: 30px;
+}
+
+ul{
+  padding: 0;
+}
+
+/*Syling below for the pink boxes over the images*/
+
+.pinkbox_img1{
+  height: 45px;
+  width: 45px;
+  background-color: rgb(236, 61, 76);
+  color: white;
+  margin-left: 21%;
+  text-align: center;
+  margin-top: 205px;
+  position: absolute;
+}
+
+.pinkbox_img1 i{
+  margin-top: 12px;
+  margin-left: 5%;
+}
+
+.pink_arrow_img1{
+  position: absolute;
+  margin-left: 22.1%;
+  margin-top: 238px;
+}
+
+/*Styling below for the message section towards the end of the page*/
+
+#message_head{
+  height: 400px;
+  background-color: rgb(36,52,75);
+  text-align: center;
+  padding-top: 50px;
+}
+
+#message_head h3{
+  color: white;
+  font-size: 35px;
+}
+
+#message_head p{
+  color: white;
+  font-size: 15px;
+}
+
+/*Styling below for the form section*/
+
+#message_form{
+  width: 63%;
+  height: 530px;
+  background-color: white;
+  margin-top: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
+  position: absolute;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+#message_form form{
+  margin-top: 50px;
+}
+
+#bottom_section{
+  height: 630px;
+  background-color: rgb(234,235,239);
+}
+
+.form_field{
+  margin-top: 20px;
+  background-color: rgb(234,235,239);
+  width: 80%;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  color: grey;
+}
+
+#message_send{
+  text-align: left;
+  font-size: 10px;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+#message_send button{
+  border: none;
+  background-color: inherit;
+}
+
+#message_send button:hover{
+  cursor: pointer;
+}
+
+#pink_box2{
+  height: 50px;
+  width: 45px;
+  background-color: rgb(236, 61, 76);
+  color: white;
+  margin-left: 47%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#pink_box2 p{
+  padding-top: 10px;
+}
+
+#pink_arrow2{
+  margin-left: -6px;
+  margin-top: -12px;
+}
+
+/*Styling below for the bottom section*/
+
+#bottom_section p{
+  padding-top: 420px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(109,116,132);
+}
+
+#bottom_section table{
+  margin-left: 25%;
+  padding-top: 40px;
+}
+
+#bottom_section td{
+  padding-left: 70px;
+}

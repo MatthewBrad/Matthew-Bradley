@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Matthew Bradley</title>
+
+  <!--The link to my external css sheet is below-->
+
+  <link rel="stylesheet" type="text/css" href="CSS/main.css">
+
+  <!--The link below is for my fontawesome used-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--The link below is for the progress bar-->
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!--The link below is for the external javascript page-->
+
+  <script src="JS/main.js"></script>
+
+  <!--The link below is for my jQuery-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--Internal styling section below-->
+
+  <style>
+
+  /*Responsive code below*/
+
+  @media only screen
+  and (min-device-width: 1px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    /*Styling below for my logo*/
+
+    #logo{
+      position: fixed;
+      color: rgb(236, 61, 76);
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 20px;
+    }
+
+    /*Styling below for my nav bar*/
+
+    #navbar{
+      height: 200px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin-top: -10px;
+    }
+
+    #navbar ul{
+      list-style-type: none;
+      padding-left: 200px;
+      padding-top:10px;
+    }
+
+    #navbar li{
+      text-align: left;
+      width: 100%;
+      display: block;
+    }
+
+    #navbar li a{
+      text-decoration: none;
+      color: rgb(41, 50, 65); /*Grey text colour*/
+    }
+
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!--The logo is below-->
+
+  <h3 id="logo">Logo</h3>
+
+  <!--Below i have my nav bar info-->
+
+  <nav id="navbar">
+
+    <ul>
+      <li><a href="#serv_jump">Services</a></li>
+      <li><a href="#skill_jump">Skills</a></li>
+      <li><a href="#work_jump">Experience.&.Education</a></li>
+      <li><a href="#project_jump">Projects</a></li>
+      <li><a href="#ref_jump">References</a></li>
+      <li><a href="#price_jump">Pricing</a></li>
+      <li><a href="#contact_jump" id="contact_scroll"><i class="fa fa-comment-o" style="font-size:18px;color:rgb(236, 61, 76);"></i> Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <div id="first_background">
+
+    <div id="name_title">
+
+      <h2>Jared Doe</h2>
+
+      <p>UI/UX Designer</p>
+
+    </div>
+
+    <div id="pink_box">
+
+      <p>Hi</p>
+
+    </div>
+
+    <div id="first_section">
+
+      <div id="pink_arrow">
+        <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+      </div>
+
+      <img src="Images/jared.jpeg" alt="jared" width="180px" height="170px">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      <h3><span>Download my resume</span> / View my work experience</h3>
+
+    </div>
+
+  </div>
+
+  <!--Below i have the social media icon links section-->
+
+  <div id="social_media">
+
+    <table>
+
+      <tr>
+        <td><a href="#"><i class="fa fa-facebook-f" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-twitter" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-linkedin" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-github-alt" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-dribbble" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-behance" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <!--I have my services section code below-->
+
+  <div id="services">
+
+    <h2 id="serv_jump">Services</h2>
+
+    <p id="price_jump">I offer these on a freelance basis</p>
+
+    <!--I have the table with the three services in below-->
+
+    <table>
+
+      <tr>
+        <td><i class="fa fa-file-text" style="font-size:35px;color:rgb(241,60,77)"></i></td>
+        <td><i class="fa fa-code" style="font-size:35px;color:rgb(241,60,77)"></i></td>
+        <td><i class="fa fa-laptop" style="font-size:35px;color:rgb(241,60,77)"></i></td>
+      </tr>
+
+      <tr id="service_table_heading">
+        <td>Print & Branding</td>
+        <td>Development</td>
+        <td>UI/UX DESIGN</td>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </td>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </td>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </td>
+      </tr>
+
+    </table>
+
+    <button>Get a Quote</button>
+
+  </div>
+
+  <!--The section below contains the progress bars of the different skills-->
+
+  <div id="progress_bars_sec">
+
+    <table id="skill_jump">
+
+      <tr>
+        <td>HTML / CSS</td>
+        <td>UI / UX</td>
+      </tr>
+
+      <tr>
+        <td><progress max="100" value="70"/></td>
+        <td><progress max="100" value="95"/></td>
+      </tr>
+
+      <tr>
+        <td>jQuery</td>
+        <td>Photoshop</td>
+      </tr>
+
+      <tr>
+        <td><progress max="100" value="90"/></td>
+        <td><progress max="100" value="100"/></td>
+      </tr>
+
+      <tr>
+        <td>SASS</td>
+        <td>Illustrator</td>
+      </tr>
+
+      <tr>
+        <td><progress max="100" value="80"/></td>
+        <td><progress max="100" value="92"/></td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <!--Below is for the work and education section-->
+
+  <div id="work_ed_main">
+
+    <h2 id="work_jump">Work Experience & Education</h2>
+
+    <p>I keep learning</p>
+
+    <button id="work_button_left"><i class="fa fa-briefcase" style="font-size:18px;color:rgb(251,96,112)"></i> Work</button>
+
+    <button><i class="fa fa-bank" style="font-size:18px;color:rgb(42,52,64);"></i> Education</button>
+
+    <!--I have the work info below-->
+
+    <div id="work_info">
+
+      <!--Company A-->
+      <section>
+        <table>
+          <tr>
+            <td>
+              <h5 class="company_letter">A</h5>
+
+              <p class="company_title">Company A</p>
+
+            </td>
+            <td>
+              <h3>Company A <span class="work_date">2014-Present</span></h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!--Company B-->
+      <section>
+        <table>
+          <tr>
+            <td>
+              <h5 class="company_letter">B</h5>
+
+              <p class="company_title">Company B</p>
+            </td>
+            <td>
+              <h3>Company B <span class="work_date">2013-2014</span></h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+    </div>
+
+    <!--The div below is for the education info which will appear when you select the education button-->
+
+    <div id="educ_info">
+    </div>
+
+  </div>
+
+  <!--The section below is for the icons and numbers of happy clients ect.-->
+
+  <div id="counter">
+
+    <table id="ref_jump">
+      <tr>
+        <td class="counter_numbers"><i class="fa fa-smile-o" style="font-size:35px;color:rgb(237,61,74)"></i> 45</td>
+        <td class="counter_numbers"><i class="fa fa-trophy" style="font-size:35px;color:rgb(237,61,74)"></i> 122</td>
+        <td class="counter_numbers"><i class="fa fa-dribbble" style="font-size:35px;color:rgb(237,61,74)"></i> 580</td>
+        <td class="counter_numbers"><i class="fa fa-calendar" style="font-size:35px;color:rgb(237,61,74)"></i> 10</td>
+      </tr>
+
+      <tr>
+        <td class="counter_title"><p>Happy Customers</p></td>
+        <td class="counter_title"><p>Completed Projects</p></td>
+        <td class="counter_title"><p>Dribbble Followers</p></td>
+        <td class="counter_title"><p>Years spent developing</p></td>
+      </tr>
+    </table>
+
+  </div>
+
+  <!--The section below is for the projects with images-->
+
+  <div id="projects_main">
+
+    <h2 id="project_jump">Projects</h2>
+
+    <p id="project_text">Here is a showcase of some of my proudest work achievements</p>
+
+    <table>
+      <tr>
+        <td>
+          <div class="pinkbox_img1">
+            <i class="fa fa-arrows-alt" style="font-size:20px;color:white"></i>
+          </div>
+          <div class="pink_arrow_img1">
+            <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+          </div>
+          <img src="Images/box.jpg" alt="Artofthebox" width="350px" height="250px">
+          <p class="project_table_text">The Art of the Box</p>
+        </td>
+        <td>
+          <div class="pinkbox_img1">
+            <i class="fa fa-arrows-alt" style="font-size:20px;color:white"></i>
+          </div>
+          <div class="pink_arrow_img1">
+            <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+          </div>
+          <img src="Images/city.jpg" alt="Cityscapes" width="350px" height="250px">
+          <p class="project_table_text">City Scapes</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="pinkbox_img1">
+            <i class="fa fa-arrows-alt" style="font-size:20px;color:white"></i>
+          </div>
+          <div class="pink_arrow_img1">
+            <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+          </div>
+          <img src="Images/snow.jpg" alt="Outthere" width="350px" height="250px">
+          <p class="project_table_text">Out There</p>
+        </td>
+        <td>
+          <div class="pinkbox_img1">
+            <i class="fa fa-arrows-alt" style="font-size:20px;color:white"></i>
+          </div>
+          <div class="pink_arrow_img1">
+            <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+          </div>
+          <img src="Images/charts.jpg" alt="Chartsandgraphs" width="350px" height="250px">
+          <p class="project_table_text">Graphs & Charts</p>
+        </td>
+      </tr>
+    </table>
+
+    <ul>
+      <li><img class="lang_icon" src="Images/wordpress1.PNG" alt="wordpress" width="210px" height="90px"></li>
+      <li><img class="lang_icon" src="Images/sass1.PNG" alt="sass" width="110px" height="80px"></li>
+      <li><img class="lang_icon" src="Images/jquery1.PNG" alt="jquery" width="170px" height="80px"></li>
+      <li><img class="lang_icon" src="Images/bootstrap1.PNG" alt="bootstrap" width="130px" height="80px"></li>
+    </ul>
+
+  </div>
+
+  <!--message section below-->
+
+  <div id="message_head">
+
+    <h3 id="contact_jump">Send a Message</h3>
+
+    <p>I will get back to you as soon as possible</p>
+
+    <div id="message_form">
+
+      <form>
+        <input class="form_field" type="text" placeholder="Name" style="height:70px;"></br>
+        <input class="form_field" type="email" placeholder="Email" style="height:70px;"></br>
+        <textarea class="form_field" placeholder="Message" style="height:150px;"></textarea>
+      </form>
+
+      <p id="message_send"><button><i class="fa fa-paper-plane-o" style="font-size:22px;color:rgb(237,61,74)"> Send</i></button></p>
+
+      <div id="pink_box2">
+
+        <p>Or</p>
+
+      </div>
+
+      <div id="pink_arrow2">
+        <i class="fa fa-caret-down" style="font-size:30px;color:rgb(236, 61, 76)"></i>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Code below for the social media links at the bottom of the page-->
+
+  <div id="bottom_section">
+
+    <p><i class="fa fa-envelope-o" style="font-size:20px;color:rgb(237,61,74)"></i> info@jareddoe.com</p>
+
+    <table>
+
+      <tr>
+        <td><a href="#"><i class="fa fa-facebook-f" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-twitter" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-linkedin" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-github-alt" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-dribbble" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+        <td><a href="#"><i class="fa fa-behance" style="font-size:25px;color:rgb(109,116,132)"></i></a></td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <script>
+
+  //Script below is jQuery for the smooth scroll function affecting the contact jump link
+
+  $(document).ready(function(){
+    $("#contact_scroll").on("click", function(){
+      $("html,body").animate({scrollTop: $("#contact_jump").offset().top},4000);
+    });
+  });
+
+  </script>
+
+</body>
+
+</html>
